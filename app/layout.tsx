@@ -1,0 +1,1 @@
+import type{Metadata}from"next";import"./globals.css";export const metadata:Metadata={title:"RankKit｜地域ランキング・収益ウィジェット",description:"市区町村とJAN・ISBN・車種・品番を紐づけたランキングを作成・配信・計測する共通ウィジェット基盤。"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="ja"><body>{children}</body></html>}
